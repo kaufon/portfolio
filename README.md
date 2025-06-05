@@ -1,7 +1,5 @@
-<h1>Portfólio das APIs - Guilherme Tavares</h1>
-<p align="justify">Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs),
-apresentado à Faculdade de Tecnologia de São José dos Campos,
-como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados.</p>
+<h1>Kauan Fonseca</h1>
+<p align="justify">Sou estudante de Desenvolvimento de Software Multiplataforma e competidor em maratonas de programação. Estas são minhas experiências na Fatec SJC.</p>
 <hr>
 <h2>Sumário</h2>
 <p>◻️ <a href="#sobre-mim">Sobre mim</a></p>
