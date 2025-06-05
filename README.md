@@ -169,7 +169,7 @@ departamento jurídico.</p>
       <td>★★★☆☆☆☆☆☆☆</td>
     </tr>
     <tr>
-      <td>Colaboracao</td>
+      <td>Colaboração</td>
       <td>★★★★★★☆☆☆☆</td>
     </tr>
     <tr>
@@ -186,69 +186,49 @@ departamento jurídico.</p>
 <hr>
 <div class="semestre2">
 <h3>Processos Otimizados de Contas</h3>
-<h4>2º Semestre • 2/2024 • <a href="https://github.com/MikeBBatista/pi-fatec-java">Repositório Github</a></h4>
-<p align="justify">Parceiro Acadêmico: <a href="https://tecsus.com.br/">TecSUS Tecnologias para a Sustentabilidade</a></p>
-<p align="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/2Sem/poc_img.png" widht="20%"></img>
-<p align="justify">POC, <a href="https://github.com/MikeBBatista/pi-fatec-java">Processos Otimizados de Contas</a>, é uma aplicação que facilita e otimiza a inserção de informações de contas despradonizadas de energia e água. Devido a grande diversidade de layouts nas contas de água e energia no Brasil, a digitalização dos dados de interesse para empresa, torna-se uma tarefa árdua e dispendiosa.</p>
-<p align="justify">Dessa forma, a aplicação POC tem o objetivo de facilitar o trabalho com a digitação de dados fornecendo uma plataforma simples, objetiva, exclusiva e funcional.</p>
-<h3>Arquitetura do Projeto </h3>
-<p align="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/2Sem/arquitetura_poc.png"></img></p>
+<h4>2º Semestre • 2/2024 • <a href="https://github.com/CtrI-Alt-Del/stocker">Repositório Github</a></h4>
+<p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
+<p align="center"><img src="system-design/stocker/stockerlogo.jpeg" widht="100%"></img>
+<p align="justify">Stocker é uma aplicação que visa facilitar o gerenciamento de estoque, oferecendo funcionalidades de controle (adição, edição e remoção) de produtos armazenados, assim como a visualização e acompanhamento das quantidades e detalhes dos itens em estoque</p>
 <br>
 <h3>Prévia da Solução </h3>
-<p align="justify">Com o objetivo de padronizar a inserção de dados das contas de água e energia, a aplicação desktop possibilita o cadastro de clientes e fornecedores de energia e/ou água, facilitando a obtenção dessas informações ao cadastrar uma nova conta. Além disso, a aplicação necessita apenas que o digitador insira os dados de interesse das contas de energia e/ou água, agilizando o processo de digitação.</p>
+<p align="justify">Com o objetivo de facilitar o gerenciamento de produtos, foi desenvolvida uma interface web que permite o cadastro, edição, exclusão, listagem e desativação de produtos de forma prática e eficiente.</p>
 <details>
-  <summary><b>Funcionalidade Cadastrar Fornecedor e Conta</b></summary>
+  <summary><b>Funcionalidade Gerenciamento de Produtos</b></summary>
   <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/2Sem/poc_app.gif" alt=""/>
-      </td>     
-    </tr>
-  </table>
+      <p alignt="center"><img src="system-design/stocker/cadastro produto.png" alt=""/>
+      <p alignt="center"><img src="system-design/stocker/lista produto.png" alt=""/>
+
 </details>
-<p align="justify"> Para facilitar a obtenção de informações e agilizar o processo de digitação dos dados, foi adicionado junto à aplicação a API dos correios que traz os dados de endereço a partir do CEP do cliente.</p>
-<details>
-  <summary><b>Detalhe API dos correios na funcionalidade cadastro de cliente</b></summary>
+<p align="justify">A fim de automatizar o gerenciamento de estoque, foi criada uma página específica para cada produto, permitindo a realização de transações com base no estoque disponível. Todos os cálculos são executados de forma automática, tornando o processo mais ágil e confiável.</p>
+  <details>
+  <summary><b>Gerenciamento de Estoque</b></summary>
   <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/2Sem/api_correios.gif" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify">Por fim, o usuário poderá realizar a edição das informações de cliente, fornecedor e conta de acordo com suas necessidades, realizando uma busca em nosso banco de dados</p>
-<details>
-  <summary><b>Funcionalidade Edição de Cliente, Fornecedor e/ou Conta</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/2Sem/edit_poc.gif" alt=""/>
-      </td>     
-    </tr>
-  </table>
+      <p alignt="center"><img src="system-design/stocker/lista estoque.png" alt=""/>
+      <p alignt="center"><img src="system-design/stocker/lancamento entrada.png" alt=""/>
+      <p alignt="center"><img src="system-design/stocker/lancamento saida.png" alt=""/>
+      <p alignt="center"><img src="system-design/stocker/lista lancamentos.png" alt=""/>
 </details>
 <br>
 <h3>Tecnologias Utilizadas </h3>
-<p align="justify"><a href="https://www.java.com/pt-BR/">Java SE 14:</a> linguagem para desenvolvimento da aplicação para front-end e back-end.</p>
-<p align="justify"><a href="https://www.mysql.com/">MySQL:</a> SGBD para desenvolvimento do Banco de Dados.</p>
-<p align="justify"><a href="https://dev.mysql.com/downloads/connector/j/">MySQL Connector/J:</a> utilizado para conexão entre o banco de dados e o back-end da aplicação.</p>
-<p align="justify"><a href="https://www.eclipse.org/downloads/packages/release/oxygen/3a/eclipse-ide-java-developers">Eclipse Java:</a> IDE utilizada para a programação da aplicação.</p>
+<p align="justify"><a href="https://www.typescriptlang.org/">TypeScript</a>: Linguagem utilizada no desenvolvimento tanto do front-end quanto do back-end da aplicação.</p> 
+<p align="justify"><a href="https://www.fastify.io/">Fastify</a>: Framework web utilizado para a construção do servidor da aplicação, oferecendo alta performance e baixo consumo de recursos.</p> 
+<p align="justify"><a href="https://www.prisma.io/">Prisma</a>: ORM (Object-Relational Mapping) utilizado para facilitar as interações com o banco de dados.</p> 
+<p align="justify"><a href="https://nextjs.org/">Next.js</a>: Framework baseado em React utilizado para o desenvolvimento da aplicação web, com foco em performance e renderização híbrida.</p> 
+<p align="justify"><a href="https://supabase.com/">Supabase</a>: Plataforma utilizada para hospedar o banco de dados PostgreSQL, oferecendo uma alternativa open-source ao Firebase.</p>
 <br>
 <h3>Contribuições Pessoais </h3>
-<p align="justify">Desempenhei o papel de Product Owner, realizando o levantamente dos requisitos para construção do backlog do produto, 
-fui responsável pela criação e prototipação das wireframes e avancei nos estudos de UX/UI. Além disso, fui responsável pelo desenvolvimento e arquitetura e construção de classes da funcionalidade cadastro de fornecedor, manipulação de objetos e criação de telas utilizando JAVA e o GUI Builder da IDE Eclipse. Sendo as atividades desempenhadas:</p>
+<p align="justify">Atuei como membro do Scrum Team, desempenhando o papel de desenvolvedor front-end e contribuindo ativamente para o design e a prototipação do sistema. As principais atividades realizadas foram:</p>
 <ul>
-  <li>Definição dos requisitos.</li>
-  <li>UX/UI design.</li>
-  <li>Prototipação das wireframes.</li>
-  <li>Arquitetura da aplicação.</li>
-  <li>Desenvolvimento, construção de classes e manipulação dos objetos.</li>
-  <li>Desenvolvimento front-end utilizando GUI Builder</li>
+  <li>Criação de interfaces com foco em UX/UI design.</li>
+  <li>Prototipação de wireframes para definição e validação das telas do sistema.</li>
+  <li>Implementação do módulo de gerenciamento de usuários no front-end.</li>
+  <li>Implementação do módulo de controle de estoque no front-end.</li>
+  <li>Desenvolvimento da funcionalidade de autenticação (login) no front-end.</li>
 </ul>
 <br>
 <h3>Lições Aprendidas </h3>
-<p align="justify">Tive o meu primeiro contato com programação em Java, programação orientada à objetos e modelagem de banco de dados. Além disso, pude avançar em relação aos meus estudos como Product Owner e UX/UI designer.</p>
+<p align="justify">Tive meu primeiro contato com React e TypeScript, o que me proporcionou uma base sólida no desenvolvimento de interfaces modernas e tipadas. Além disso, aprofundei meus conhecimentos sobre arquitetura de projetos e padrões de programação, estudando conceitos como Clean Architecture e os princípios SOLID.</p>
 <h3>Hard Skills </h3>
 <details>
   <summary><b>Clique para ver a lista de hard skills</b></summary>
@@ -259,32 +239,24 @@ fui responsável pela criação e prototipação das wireframes e avancei nos es
       <th width="300px">Classificação</th>
     </tr>
     <tr>
-      <td>Java</td>
-      <td>★★★★☆☆☆☆☆☆</td>
+      <td>Typescript</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
-      <td>Front-end</td>
-      <td>★★★☆☆☆☆☆☆☆</td>
+      <td>NextJS</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
-      <td>Modelagem de Banco de Dados</td>
-      <td>★★★★☆☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>MySQL</td>
-      <td>★★★★★☆☆☆☆☆</td>
+      <td>Padrões de programação</td>
+      <td>★★★★★★★★★☆</td>
     </tr>
     <tr>
       <td>Figma</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Scrum - Product Owner</td>
-      <td>★★★★★☆☆☆☆☆</td>
+      <td>★★★★★★☆☆☆☆</td>
     </tr>
     <tr>
       <td>UX/UI design</td>
-      <td>★★★★☆☆☆☆☆☆</td>
+      <td>★★★☆☆☆☆☆☆☆</td>
     </tr>
   </table>
 </details>
@@ -299,37 +271,24 @@ fui responsável pela criação e prototipação das wireframes e avancei nos es
     </tr>
     <tr>
       <td>Proatividade</td>
-      <td>★★★★★★☆☆☆☆</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
-      <td>Visão de Negócio</td>
-      <td>★★★★★★☆☆☆☆</td>
+      <td>Autonomia</td>
+      <td>★★★★★★★★★☆</td>
     </tr>
     <tr>
-      <td>Comunicação Assertiva</td>
-      <td>★★★★★★☆☆☆☆</td>
+      <td>Colaboração</td>
+      <td>★★★★★★★☆☆☆</td>
     </tr>
     <tr>
-      <td>Empatia</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Inteligência Emocional</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Organização e Planejamento</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Resiliência</td>
-      <td>★★★★★★☆☆☆☆</td>
+      <td>Entrega de Resultados</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
   </table>
 </details>
 <br>
-<p align="justify"><b>Proatividade:</b>por estar em um novo grupo com pessoas pouco conhecidas, a proatividade foi fundamental para que eu me entrosasse e realizasse as entregas.</p>
-<p align="justify"><b>Resiliência:</b> perdemos alguns membros ao longo do caminho e, por conta disso, precisei ser resiliente para assumir novas atividades, mesmo àquelas sem tanta afinidade.</p>
+<p align="justify"><b>Autonomia:</b> Por haver poucas pessoas envolvidas no desenvolvimento do front-end, precisei assumir um alto nível de autonomia para definir o que entregar e como entregar. Isso me impulsionou significativamente nos estudos e na evolução prática das minhas habilidades.</p> 
 <br>
 </div>
 <br>
@@ -384,7 +343,7 @@ fui responsável pela criação e prototipação das wireframes e avancei nos es
 
 <br>
 <h3>Contribuições Pessoais  </h3>
-<p align="justify">Desempenhei o papel de Scrum Team e atuei como desenvolvedor full-stack, com foco principal no backend. Além disso, contribuí ativamente para o desenvolvimento da arquitetura da aplicação.</p>
+<p align="justify">Desempenhei o papel de Scrum Team e atuei como desenvolvedor full-stack, com foco principal no backend. Além disso, contribuí ativamente para o desenvolvimento da arquitetura da aplicação.As principais atividades foram:</p>
 <ul> <li>Desenvolvimento do sistema de autenticação no backend</li> <li>Implementação do gerenciamento de solicitações no backend e frontend</li> <li>Definição e estruturação da arquitetura da aplicação</li> <li>Desenvolvimento do gerenciamento de colaboradores no backend e frontend</li> <li>Geração de relatórios com gráficos no backend</li> </ul>
 <br>
 <h3>Lições Aprendidas </h3>
@@ -446,8 +405,8 @@ fui responsável pela criação e prototipação das wireframes e avancei nos es
       <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
-      <td>Colaboracao</td>
-      <td>★★★★★★☆☆☆☆</td>
+      <td>Colaboração</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
       <td>Entrega de Resultados</td>
