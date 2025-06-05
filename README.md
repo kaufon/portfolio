@@ -50,19 +50,8 @@
 </ul>
 </div>
 <hr>
-<h2>Sobre mim</h2>
 <p align="center"><img src="https://github.com/kaufon.png" width="20%"></p>
-<p align="justify">Mestre em Engenharia de Sistemas Agrícolas pela Universidade de São Paulo (USP), bacharel em Engenharia Agrícola e Ambiental 
-pela Universidade Federal de Mato Grosso (UFMT) e regularmente matriculado no 6º semestre do curso tecnólogo em Banco de Dados pela Faculdade de 
-Tecnologia de São José dos Campos (FATEC).</p>
-<p align="justify">Possuo experiência na área de Tecnologia. Durante esse período, tive a oportunidade de desenvolver sistemas inteligentes 
-e modelos matemáticos em parceria com o Departamento de Agricultura dos Estados Unidos (USDA). Trabelhei com Gestão de Projetos e Portfólio nas áreas 
-de Supply Chain Technology e Construção Civil. Além disso, atuei em análise e governança de dados em system reliability e data quality.</p>
-<p align="justify">Atualmente sou analista de tecnologia financeira na Johnson & Johnson, trabalho com Digital Transformation, 
-automatizando processos na área com ferramentas low-code (Power Platform), em desenvolvimento como especialista na plataforma Anaplan 
-e atuando como product owner na implementação de metodologia ágil para o time de suporte de finanças e em projetos de business intelligence junto ao 
-departamento jurídico.</p>
-<p align="center">• <a href="https://www.linkedin.com/in/guilhermeftavares/">LinkedIn</a> • <a href="https://github.com/guiftavares">GitHub</a> •</p>
+<p align="center">• <a href="https://www.linkedin.com/in/kauan-fonseca-b62188300">LinkedIn</a> • <a href="https://github.com/kaufon">GitHub</a> •</p>
 <hr>
 <div class="semestre1">
 <h2>Meus Projetos</h2>
@@ -215,6 +204,7 @@ departamento jurídico.</p>
 <p align="justify"><a href="https://www.prisma.io/">Prisma</a>: ORM (Object-Relational Mapping) utilizado para facilitar as interações com o banco de dados.</p> 
 <p align="justify"><a href="https://nextjs.org/">Next.js</a>: Framework baseado em React utilizado para o desenvolvimento da aplicação web, com foco em performance e renderização híbrida.</p> 
 <p align="justify"><a href="https://supabase.com/">Supabase</a>: Plataforma utilizada para hospedar o banco de dados PostgreSQL, oferecendo uma alternativa open-source ao Firebase.</p>
+<p align="justify"><b><a href="https://www.figma.com/">Figma</a>:</b> utilizado para o desenvolvimento e a prototipação das wireframes.</p>
 <br>
 <h3>Contribuições Pessoais </h3>
 <p align="justify">Atuei como membro do Scrum Team, desempenhando o papel de desenvolvedor front-end e contribuindo ativamente para o design e a prototipação do sistema. As principais atividades realizadas foram:</p>
@@ -338,8 +328,7 @@ departamento jurídico.</p>
 <p align="justify"><b><a href="https://www.mongodb.com/">MongoDB</a>:</b> banco de dados não relacional utilizado para o armazenamento do banco de horas.</p> 
 <p align="justify"><b><a href="https://redis.io/">Redis</a>:</b> banco de dados em memória utilizado para cache do servidor.</p> 
 <p align="justify"><b><a href="https://www.rabbitmq.com/">RabbitMQ</a>:</b> ferramenta de gerenciamento de filas, utilizada para comunicação assíncrona entre serviços.</p>
-
-
+<p align="justify"><b><a href="https://www.figma.com/">Figma</a>:</b> utilizado para o desenvolvimento e a prototipação das wireframes.</p>
 <br>
 <h3>Contribuições Pessoais  </h3>
 <p align="justify">Desempenhei o papel de Scrum Team e atuei como desenvolvedor full-stack, com foco principal no backend. Além disso, contribuí ativamente para o desenvolvimento da arquitetura da aplicação.As principais atividades foram:</p>
