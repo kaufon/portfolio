@@ -23,7 +23,6 @@
 <ul><a href="#stocker">2º Semestre • 2/2024 • Stocker</a>
   <details>
     <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto-">Arquitetura do Projeto</a></ul>
     <ul>◻️ <a href="#prévia-da-solução-">Prévia da Solução</a></ul>
     <ul>◻️ <a href="#tecnologias-utilizadas-">Tecnologias Utilizadas</a></ul>
     <ul>◻️ <a href="#contribuições-pessoais-">Contribuições Pessoais</a></ul>
@@ -67,7 +66,7 @@ departamento jurídico.</p>
 <hr>
 <div class="semestre1">
 <h2>Meus Projetos</h2>
-<h3>Smart Farming</h3>
+<h3 id="smartfarming">Smart Farming</h3>
 <h4>1º Semestre • 1/2024  • <a href="hhttps://github.com/CtrI-Alt-Del/smart-farming">Repositório Github</a> </h4>
 <p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
 <p align="center"><img src="system-design/smartfarmingimagem.svg" widht="100%"></img>
@@ -185,7 +184,7 @@ departamento jurídico.</p>
 </div>
 <hr>
 <div class="semestre2">
-<h3>Processos Otimizados de Contas</h3>
+<h3 id="stocker">Stocker</h3>
 <h4>2º Semestre • 2/2024 • <a href="https://github.com/CtrI-Alt-Del/stocker">Repositório Github</a></h4>
 <p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
 <p align="center"><img src="system-design/stocker/stockerlogo.jpeg" widht="100%"></img>
@@ -346,7 +345,7 @@ departamento jurídico.</p>
 <p align="justify">Desempenhei o papel de Scrum Team e atuei como desenvolvedor full-stack, com foco principal no backend. Além disso, contribuí ativamente para o desenvolvimento da arquitetura da aplicação.As principais atividades foram:</p>
 <ul> <li>Desenvolvimento do sistema de autenticação no backend</li> <li>Implementação do gerenciamento de solicitações no backend e frontend</li> <li>Definição e estruturação da arquitetura da aplicação</li> <li>Desenvolvimento do gerenciamento de colaboradores no backend e frontend</li> <li>Geração de relatórios com gráficos no backend</li> </ul>
 <br>
-<h3>Lições Aprendidas </h3>
+<h3 id="lições-aprendidas--">Lições Aprendidas </h3>
 <p align="justify">Tive meu primeiro contato com o Spring Boot, e ao longo do projeto consegui aprimorar significativamente minha atuação como desenvolvedor full-stack, desenvolvendo tanto minhas hard skills quanto minhas soft skills.</p>
 <h3>Hard Skills  </h3>
 <details>
