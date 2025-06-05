@@ -2,7 +2,7 @@
 <p align="justify">Sou estudante de Desenvolvimento de Software Multiplataforma e competidor em maratonas de programação. Estas são minhas experiências na Fatec SJC.</p>
 <hr>
 <h2>Sumário</h2>
-<p>◻️ <a href="#sobre-mim">Sobre mim</a></p>
+<p>◻️ <a href="#conhecimentos">Meus Conhecimentos</a></p>
 <p>◻️ <a href="#meus-projetos">Meus Projetos</a></p>
 <div class="semestre1">
 <ul><a href="#smartfarming">1º Semestre • 1/2024 • Smart Farming</a>
@@ -50,6 +50,23 @@
 </ul>
 </div>
 <hr>
+<h2 id="conhecimentos">Meus Conhecimentos</h2>
+<details>
+  <summary>Principais Conhecimentos</summary>
+  <ul>
+    <li><a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">Node.js</a></li> 
+    <li><a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a></li> 
+    <li><a href="https://spring.io/projects/spring-boot" target="_blank" rel="noopener noreferrer">Spring Boot</a></li> 
+    <li><a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer">Ruby on Rails</a></li>
+  </ul>
+</details>
+<details>
+  <summary>O que estou aprendendo atualmente</summary>
+  <ul>
+    <li><a href="https://nestjs.com/" target="_blank" rel="noopener noreferrer">NestJS</a></li>
+    <li><a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a></li>
+  </ul>
+</details>
 <p align="center"><img src="https://github.com/kaufon.png" width="20%"></p>
 <p align="center">• <a href="https://www.linkedin.com/in/kauan-fonseca-b62188300">LinkedIn</a> • <a href="https://github.com/kaufon">GitHub</a> •</p>
 <hr>
