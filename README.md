@@ -68,7 +68,7 @@ departamento jurídico.</p>
 <div class="semestre1">
 <h2>Meus Projetos</h2>
 <h3>Smart Farming</h3>
-<h4>1º Semestre • 1/2024 </h4>
+<h4>1º Semestre • 1/2024  • <a href="hhttps://github.com/CtrI-Alt-Del/smart-farming">Repositório Github</a> </h4>
 <p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
 <p align="center"><img src="system-design/smartfarmingimagem.svg" widht="100%"></img>
 <p align="justify">Smart Farming é um site web que visa facilitar o trabalho de monitoramento da estufa inteligente de mesmo nome mantida dentro da FATEC de São José dos Campos.</p>
@@ -186,7 +186,7 @@ departamento jurídico.</p>
 <hr>
 <div class="semestre2">
 <h3>Processos Otimizados de Contas</h3>
-<h4>2º Semestre • 2/2020 • <a href="https://github.com/MikeBBatista/pi-fatec-java">Repositório Github</a></h4>
+<h4>2º Semestre • 2/2024 • <a href="https://github.com/MikeBBatista/pi-fatec-java">Repositório Github</a></h4>
 <p align="justify">Parceiro Acadêmico: <a href="https://tecsus.com.br/">TecSUS Tecnologias para a Sustentabilidade</a></p>
 <p align="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/2Sem/poc_img.png" widht="20%"></img>
 <p align="justify">POC, <a href="https://github.com/MikeBBatista/pi-fatec-java">Processos Otimizados de Contas</a>, é uma aplicação que facilita e otimiza a inserção de informações de contas despradonizadas de energia e água. Devido a grande diversidade de layouts nas contas de água e energia no Brasil, a digitalização dos dados de interesse para empresa, torna-se uma tarefa árdua e dispendiosa.</p>
@@ -336,82 +336,59 @@ fui responsável pela criação e prototipação das wireframes e avancei nos es
 <p><a href="#sumário">Voltar para o início</a></p>
 <hr>
 <div class="semestre3">
-<h3>airPLAN</h3>
-<h4>3º Semestre • 1/2021 • <a href="https://github.com/GabrielSG20/Projeto_Integrador_3BD-1Sem2021">Repositório Github</a></h4>
-<p align="justify">Parceiro Acadêmico: <a href="https://embraer.com/br/pt">Embraer</a></p>
-<p align="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/airplan_logo.png" widht="20%"></img>
-<p align="justify"><a href="https://github.com/GabrielSG20/Projeto_Integrador_3BD-1Sem2021">airPLAIN</a> é uma aplicação que integra três APIs independentes, cujo o objetivo é a otimização da criação e melhorias do controle na documentação de aeronaves, de forma que automatiza e aperfeiçoa a forma de armazenamento dos dados e geração de documentos de forma intuitiva e eficaz.</p>
-<p align="justify">Além disso, a ferramenta mantém, customiza e versiona partes de arquivos em PDF, utilizando regras de negócio específicas para a geração de documentação final formadas de acordo com a lista efetiva de páginas (LEP) selecionadas.</p>
+<h3>Chronos</h3>
+<h4>3º Semestre • 1/2025 • <a href="https://github.com/CtrI-Alt-Del/chronos">Repositório Github</a></h4>
+<p align="justify">Parceiro Acadêmico: <a href="https://necto.com.br/pt/">Necto Systems</a></p>
+<p align="justify">Chronos é uma aplicação web que simplifica o gerenciamento de ponto online, oferecendo funcionalidades completas para controle de jornada de trabalho. Permite o registro de ponto online, cálculo automático de horas, gestão de ausências e geração de relatórios detalhados. </p>
 <h3>Arquitetura do Projeto  </h3>
-<p align="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/airPlan_arq.png" width="100%"></img></p>
+<p align="center"><img src="system-design/chronos/chronos-system-design.png" width="100%"></img></p>
 <br>
 <h3>Prévia da Solução  </h3>
-<p align="justify">A aplicação desenvolvida tem como objetivo a integração de três APIs independentes, capazes de manter, customizar e versionar partes de arquivos em .pdf, utilizando regras de negócio específicas para a geração de documentos finais que dispõe das partes selecionadas, ou seja, um sistema que automatiza e aperfeiçoa de forma automática a criação e armazenagem de documentos de aeronaves.</p>
-<p align="justify">Para isso, as três APIs indepentendetes desenvolvidas, possuem as seguintes funcionalidades: <b>(i) Codelist: </b>ferramenta que cria, altera, salva e deleta a CodeList do cliente, usando inputs do usuário; <b>(ii) List of Effective Pages (LEP): </b>ferramenta que cria, salva ou deleta da LEP, utilizando input do usuário e informações da CodeList na construção da LEP (espécie de sumário); e <b>(iii) PDF Compilation: </b>ferramenta para compilar arquivos em .pdf, utilizando input e informações da CodeList e/ou LEP para criar o arquivo <i>full</i> ou <i>delta</i>.</p>
-<details>
-  <summary><b>Menu Principal com as três APIs independentes e suas funcionalidades</b></summary>
+<p align="justify">A aplicação conta com as seguintes funcionalidades principais: gerenciamento de ponto, jornadas de trabalho,solicitações de colaboradores e banco de horas.</p>
+<p align="justify">Na funcionalidade de gerenciamento de ponto, o usuário pode registrar seus horários de entrada e saída. Caso possua as permissões adequadas, também pode alterar os horários registrados. Se necessário, é possível criar uma solicitação para correção ou troca de ponto.</p>
+  <details>
+  <summary><b>Batida de Ponto</b></summary>
   <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/GabrielSG20/Projeto_Integrador_3BD-1Sem2021/raw/PL001/imagens%20telas/menu.png" alt=""/>
-      </td>     
-    </tr>
-  </table>
+  <p alignt="center"><img src="system-design/chronos/troca de ponto.png" alt=""/>
+  <p alignt="center"><img src="system-design/chronos/batida de ponto.png" alt=""/>
 </details>
-<p align="justify"> A funcionalidade CodeList permite a criação, a consulta e a importação de CodeLists e o seu armazenamento em banco de dados, a partir dos inputs fornecidos pelo usuário como o código da aeronave, código secundário de identificação, tags e atributos necessários para criação e identificação dos documentos.</p>
+ <p align="justify">Na funcionalidade de jornada, o colaborador pode visualizar sua jornada de trabalho definida, enquanto o gerente tem permissão para alterar os dias da jornada, permitindo montar uma escala fixa mensal. Além disso, é possível registrar períodos de férias, quando necessário.</p>
 <details>
-  <summary><b>Detalhe da funcionalidade CodeList</b></summary>
+  <summary><b>Jornada de trabalho</b></summary>
   <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/CodeList.gif" alt=""/>
-      </td>     
-    </tr>
-  </table>
+  <p alignt="center"><img src="system-design/chronos/jornada.png" alt=""/>    
 </details>
-<p align="justify">Já a segunda API, permite a criação da LEP (<i>List of Effective Pages</i>) de forma automática, lendo o rodapé das páginas da CodeList e formando um sumário armazenados em arquivos do tipo .doc e .pdf .</p>
-<details>
-  <summary><b>Detalhe da funcionalidade List of Effective Pages (LEP)</b></summary>
+<p align="justify">Na funcionalidade de solicitações, o colaborador pode realizar diversos pedidos, como afastamento, troca de ponto, férias ou abono de falta. Cabe ao gestor analisar e decidir pela aprovação ou reprovação dessas solicitações.</p> 
+  <details>
+  <summary><b>Gereciamento de solicitações</b></summary>
   <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/LEP.gif" alt=""/>
-      </td>     
-    </tr>
-  </table>
+  <p alignt="center"><img src="system-design/chronos/pedido afastamento.png" alt=""/>   
 </details>
-<p align="justify">Por fim, a funcionalidade PDF Compilation permite a compilação dos arquivos baseando-se no Codelist e na LEP e o download do arquivo compilado em .pdf, de acordo com os inputs do usuário nas suas versões <i>full</i> e <i>delta</i>.</p>
-<details>
-  <summary><b>Detalhe da funcionalidade PDF Compilation</b></summary>
+<p align="justify">Por fim, a funcionalidade de banco de horas permite que o colaborador visualize seu saldo atual, enquanto o gerente pode realizar transações de crédito ou débito, conforme necessário.</p>
+  <details>
+  <summary><b>Banco de Horas</b></summary>
   <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/pdfComp.gif" alt=""/>
-      </td>     
-    </tr>
-  </table>
+  <p alignt="center"><img src="system-design/chronos/banco de horas.png" alt=""/>
 </details>
 <br>
 <h3>Tecnologias Utilizadas  </h3>
-<p align="justify"><a href="https://www.java.com/pt-BR/">Java SE 14:</a> linguagem para desenvolvimento da aplicação para back-end.</p>
-<p align="justify"><a href="https://spring.io/">Spring Boot:</a> framework para Java utilizada para facilitar a configuração e o gerenciamento das dependências do projeto.</p>
-<p align="justify"><a href="https://www.javascript.com/">JavaScript:</a> linguagem para desenvolvimento da aplicação para front-end.</p>
-<p align="justify"><a href="https://www.thymeleaf.org/">Thymeleaf:</a> utilizada para comunicação entre o front-end e a PAI Rest elaborada no back-end.</p>
-<p align="justify"><a href="https://www.mysql.com/">MySQL:</a> SGBD para desenvolvimento do Banco de Dados.</p>
-<p align="justify"><a href="https://trello.com/pt-BR">Trello:</a> ferramenta utilizada para a Gestão de Projetos utilizando a metodologia Scrum.</p>
+<p align="justify"><b><a href="https://spring.io/">Spring Boot</a>:</b> utilizado no desenvolvimento do servidor backend.</p> 
+<p align="justify"><b><a href="https://www.typescriptlang.org/">TypeScript</a>:</b> linguagem utilizada no desenvolvimento do front-end da aplicação.</p> 
+<p align="justify"><b><a href="https://nextjs.org/">Next.js</a>:</b> framework utilizado para a construção da aplicação web.</p> 
+<p align="justify"><b><a href="https://www.postgresql.org/">PostgreSQL</a>:</b> sistema de gerenciamento de banco de dados relacional (SGBD) utilizado na persistência de dados.</p> 
+<p align="justify"><b><a href="https://www.atlassian.com/software/jira">Jira</a>:</b> ferramenta utilizada para a gestão do projeto com a metodologia Scrum.</p> 
+<p align="justify"><b><a href="https://www.mongodb.com/">MongoDB</a>:</b> banco de dados não relacional utilizado para o armazenamento do banco de horas.</p> 
+<p align="justify"><b><a href="https://redis.io/">Redis</a>:</b> banco de dados em memória utilizado para cache do servidor.</p> 
+<p align="justify"><b><a href="https://www.rabbitmq.com/">RabbitMQ</a>:</b> ferramenta de gerenciamento de filas, utilizada para comunicação assíncrona entre serviços.</p>
+
+
 <br>
 <h3>Contribuições Pessoais  </h3>
-<p align="justify">Desempenhei o papel de Product Owner, realizando o levantamente dos requisitos para construção do backlog do produto e entendimento das regras de negócio junto ao cliente, fui responsável pela criação e prototipação das wireframes e avancei nos estudos de UX/UI. Além disso, fui responsável pelo desenvolvimento e arquitetura da funcionalidade CodeList. Sendo as atividades desempenhadas:</p>
-<ul>
-  <li>Definição dos requisitos.</li>
-  <li>UX/UI design.</li>
-  <li>Prototipação das wireframes.</li>
-  <li>Arquitetura da aplicação.</li>
-  <li>Desenvolvimento front-end.</li>
-</ul>
+<p align="justify">Desempenhei o papel de Scrum Team e atuei como desenvolvedor full-stack, com foco principal no backend. Além disso, contribuí ativamente para o desenvolvimento da arquitetura da aplicação.</p>
+<ul> <li>Desenvolvimento do sistema de autenticação no backend</li> <li>Implementação do gerenciamento de solicitações no backend e frontend</li> <li>Definição e estruturação da arquitetura da aplicação</li> <li>Desenvolvimento do gerenciamento de colaboradores no backend e frontend</li> <li>Geração de relatórios com gráficos no backend</li> </ul>
 <br>
 <h3>Lições Aprendidas </h3>
-<p align="justify">Tive o meu primeiro contato com Spring Boot, todavia, pude aprimorar meus conhecimentos em relação ao papel de Product Owner, UX/UI designer e desenvolvimento front-end.</p>
+<p align="justify">Tive meu primeiro contato com o Spring Boot, e ao longo do projeto consegui aprimorar significativamente minha atuação como desenvolvedor full-stack, desenvolvendo tanto minhas hard skills quanto minhas soft skills.</p>
 <h3>Hard Skills  </h3>
 <details>
   <summary><b>Clique para ver a lista de hard skills</b></summary>
@@ -422,36 +399,32 @@ fui responsável pela criação e prototipação das wireframes e avancei nos es
       <th width="300px">Classificação</th>
     </tr>
     <tr>
-      <td>Java</td>
+      <td>Spring Boot</td>
+      <td>★★★★★★★★☆☆</td>
+    </tr>
+    <tr>
+      <td>TypeScript</td>
+      <td>★★★★★★★★☆☆</td>
+    </tr>
+    <tr>
+      <td>NextJs</td>
+      <td>★★★★★★★★☆☆</td>
+    </tr>
+    <tr>
+      <td>PostgresSQL</td>
       <td>★★★★★☆☆☆☆☆</td>
     </tr>
     <tr>
-      <td>Spring Boot</td>
+      <td>MongoDB</td>
       <td>★★☆☆☆☆☆☆☆☆</td>
     </tr>
     <tr>
-      <td>Front-end</td>
-      <td>★★★☆☆☆☆☆☆☆</td>
+      <td>Jira</td>
+      <td>★★☆☆☆☆☆☆☆☆</td>
     </tr>
     <tr>
-      <td>Modelagem de Banco de Dados</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>MySQL</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Figma</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Scrum - Product Owner</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>UX/UI design</td>
-      <td>★★★★★☆☆☆☆☆</td>
+      <td>RabbitMQ</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
   </table>
 </details>
@@ -466,38 +439,24 @@ fui responsável pela criação e prototipação das wireframes e avancei nos es
     </tr>
     <tr>
       <td>Proatividade</td>
+      <td>★★★★★★★★☆☆</td>
+    </tr>
+    <tr>
+      <td>Autonomia</td>
+      <td>★★★★★★★★☆☆</td>
+    </tr>
+    <tr>
+      <td>Colaboracao</td>
       <td>★★★★★★☆☆☆☆</td>
     </tr>
     <tr>
-      <td>Visão de Negócio</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Comunicação Assertiva</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Empatia</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Inteligência Emocional</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Organização e Planejamento</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Resiliência</td>
-      <td>★★★★★★★☆☆☆</td>
+      <td>Entrega de Resultados</td>
+      <td>★★★★★★★★★☆</td>
     </tr>
   </table>
 </details>
 <br>
-<p align="justify"><b>Visão de Negócio:</b> por ser um projeto complexo, conseguir enxergar os objetivos e obter os requerimentos por parte do cliente foi o diferencial da nossa equipe desde o início.</p>
-<p align="justify"><b>Organização e Planejamento:</b> devido à complexidade, ter um bom planejamento foi fundamental para que entregassemos todos MVPs com sucesso.</p>
-<p align="justify"><b>Resiliência/Inteligência Emocional:</b> houve conflitos entre o time de desenvolvimento e precisei ser resiliente para que as entregas fossem feitas, tentando ao máximo apoiar as individualidades de cada um e as focalizando no objetivo final das entregas.</p>
+<p align="justify"><b>Entrega de Resultados:</b> Devido à baixa quantidade de colaboradores atuando no backend, assumi uma carga maior de responsabilidades nessa área. Isso me proporcionou um aprendizado acelerado e um aprimoramento significativo das minhas habilidades técnicas.</p>
 <br>
 </div>
 <br>
