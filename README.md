@@ -157,35 +157,8 @@
   </table>
 </details>
 <h3>Soft Skills</h3>
-<details>
-<summary><b>Clique para ver a lista de soft skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Habilidade</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Proatividade</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Autonomia</td>
-      <td>★★★☆☆☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Colaboração</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Entrega de Resultados</td>
-      <td>★★★☆☆☆☆☆☆☆</td>
-    </tr>
-  </table>
-</details>
 <br>
-<p align="justify"><b>Colaboracao:</b> Desenvolvi minha capacidade de trabalhar em um grupo ao todo </p>
-<br>
+<p align="justify"><b>Comunicação:</b> Por ser meu primeiro projeto de software em equipe e por não conhecer ninguém no time, tive que melhorar minha comunicação acima de tudo. Por conta disso, desenvolvi uma comunicação proativa, buscando ajuda para acelerar meu aprendizado e oferecendo suporte aos colegas sempre que possível, fortalecendo o espírito de equipe e a responsabilidade compartilhada pelo sucesso do projeto.</p>
 <p><a href="#sumário">Voltar para o início</a></p>
 </div>
 <hr>
@@ -267,34 +240,9 @@
   </table>
 </details>
 <h3>Soft Skills </h3>
-<details>
-<summary><b>Clique para ver a lista de soft skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Habilidade</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Proatividade</td>
-      <td>★★★★★★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>Autonomia</td>
-      <td>★★★★★★★★★☆</td>
-    </tr>
-    <tr>
-      <td>Colaboração</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Entrega de Resultados</td>
-      <td>★★★★★★★★☆☆</td>
-    </tr>
-  </table>
-</details>
 <br>
-<p align="justify"><b>Autonomia:</b> Por haver poucas pessoas envolvidas no desenvolvimento do front-end, precisei assumir um alto nível de autonomia para definir o que entregar e como entregar. Isso me impulsionou significativamente nos estudos e na evolução prática das minhas habilidades.</p> 
+<p align="justify"><b>Autonomia:</b> Por haver poucas pessoas envolvidas no desenvolvimento do front-end, precisei assumir um alto nível de autonomia para definir o que entregar e como entregar. Isso me impulsionou significativamente nos estudos e na evolução prática das minhas habilidades.Isso me forcou a desenvolver muito minhas habilidades de programacao e de front-end o que impulsou minha produtividade e qualidade de entregas no projeto</p>
+<p align="justify"><b>Responsabilidade Técnica:</b> A responsabilidade de ser um dos principais desenvolvedores front-end me levou a redefinir meu padrão de qualidade. Passei a entender que uma entrega de valor vai além do código funcional, abrangendo também a performance, a manutenibilidade e a experiência do usuário final. Na prática, isso significou adotar padroes de codigo mais rigorosos, otimizar o tempo de carregamento das páginas e garantir que cada componente fosse não apenas funcional, mas também escalável e de fácil compreensão para a equipe. O resultado foi um produto final mais robusto e confiável.</p>
 <br>
 </div>
 <br>
@@ -392,35 +340,10 @@
     </tr>
   </table>
 </details>
-<h3>Soft Skills  </h3>
-<details>
-<summary><b>Clique para ver a lista de soft skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Habilidade</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Proatividade</td>
-      <td>★★★★★★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>Autonomia</td>
-      <td>★★★★★★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>Colaboração</td>
-      <td>★★★★★★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>Entrega de Resultados</td>
-      <td>★★★★★★★★★☆</td>
-    </tr>
-  </table>
-</details>
+<h3>Soft Skills</h3>
 <br>
-<p align="justify"><b>Entrega de Resultados:</b> Devido à baixa quantidade de colaboradores atuando no backend, assumi uma carga maior de responsabilidades nessa área. Isso me proporcionou um aprendizado acelerado e um aprimoramento significativo das minhas habilidades técnicas.</p>
+<p align="justify"><b>Entrega de Resultados:</b> Por conta de uma quantidade menor de integrantes tive que assumir maiores responsabilidades no projeto, desenvolvi uma visão integral sobre o ciclo de entrega. Deixei de focar apenas na minha tarefa individual para compreender como minha contribuição é o alicerce para o sucesso da sprint. Essa nova perspectiva me levou a aprimorar a comunicação e o alinhamento com a equipe, resultando em entregas melhores , com menos retrabalho e maior previsibilidade para atingir os objetivos do projeto.</p>
+<p align="justify"><b>Comunicação </b> A entrada de novos integrantes na equipe foi uma oportunidade para aprimorar minhas habilidades de comunicação e liderança. Atuei ativamente para garantir a integração e o alinhamento do time, facilitando discussões técnicas, negociando o escopo e a prioridade das tarefas.Isso resultou em comunicar minhas ideias e requisitos de forma mais clara e objetiva, explicando não apenas "o que" precisava ser feito, mas principalmente o "porquê"</p>
 <br>
 </div>
 <br>
