@@ -343,7 +343,7 @@
 <h3>Soft Skills</h3>
 <br>
 <p align="justify"><b>Entrega de Resultados:</b> Por conta de uma quantidade menor de integrantes tive que assumir maiores responsabilidades no projeto, desenvolvi uma visão integral sobre o ciclo de entrega. Deixei de focar apenas na minha tarefa individual para compreender como minha contribuição é o alicerce para o sucesso da sprint. Essa nova perspectiva me levou a aprimorar a comunicação e o alinhamento com a equipe, resultando em entregas melhores , com menos retrabalho e maior previsibilidade para atingir os objetivos do projeto.</p>
-<p align="justify"><b>Comunicação </b> A entrada de novos integrantes na equipe foi uma oportunidade para aprimorar minhas habilidades de comunicação e liderança. Atuei ativamente para garantir a integração e o alinhamento do time, facilitando discussões técnicas, negociando o escopo e a prioridade das tarefas.Isso resultou em comunicar minhas ideias e requisitos de forma mais clara e objetiva, explicando não apenas "o que" precisava ser feito, mas principalmente o "porquê"</p>
+<p align="justify"><b>Comunicação </b> A entrada de novos integrantes na equipe foi uma oportunidade para aprimorar minhas habilidades de comunicação e liderança. Atuei ativamente para garantir a integração e o alinhamento do time, facilitando discussões técnicas, negociando o escopo e a prioridade das tarefas.Isso resultou em comunicar minhas ideias e requisitos de forma mais clara e objetiva, explicando não apenas "o que" precisava ser feito, mas principalmente o motivo da entrega</p>
 <br>
 </div>
 <br>
